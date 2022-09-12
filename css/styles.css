@@ -7,3 +7,124 @@
   --grayish-blue: hsl(231, 7%, 65%);
   --light-grayish-blue: hsl(207, 33%, 95%);
 }
+
+/* font-family: 'Barlow', sans-serif; */
+/* font-family: 'Barlow Condensed', sans-serif; */
+
+/* GENERAL CSS */
+body {
+  font-family: "Barlow", sans-serif;
+  overflow-x: hidden;
+}
+
+.main-container {
+  width: 80%;
+  margin: auto;
+}
+
+/* =========================== */
+/* NAVBAR */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.links {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.link {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--very-dark-blue);
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--light-grayish-blue);
+}
+
+/* END OF NAVBAR */
+/* =========================== */
+
+/* =========================== */
+/* MAIN-SECTION */
+
+.main-section {
+  display: flex;
+  height: 60vh;
+  margin-top: 70px;
+}
+
+.left-side {
+  width: 40%;
+}
+
+.sub-heading {
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  color: var(--grayish-blue);
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+
+.sub-heading span {
+  background-color: var(--very-dark-blue);
+  letter-spacing: 0;
+  border-radius: 15px;
+  padding: 3px 7px;
+  color: white;
+  font-weight: 700;
+}
+
+.main-heading {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  color: var(--very-dark-blue);
+  margin-bottom: 40px;
+}
+
+.desc {
+  color: var(--dark-grayish-blue);
+  width: 60%;
+  margin-bottom: 50px;
+}
+
+.schedule {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.main-cta {
+  font-family: "Barlow", sans-serif;
+  background-color: var(--red);
+  border: none;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+  border-radius: 5px;
+}
+
+.schedule p {
+  color: var(--grayish-blue);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.right-side {
+  position: absolute;
+  right: -250px;
+}
