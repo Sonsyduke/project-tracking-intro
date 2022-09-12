@@ -1,6 +1,7 @@
 /* CSS VARIABLES */
 :root {
   --red: hsl(0, 100%, 68%);
+  --red-hover: hsl(0, 96%, 73%);
 
   --very-dark-blue: hsl(230, 29%, 20%);
   --dark-grayish-blue: hsl(230, 11%, 40%);
@@ -44,6 +45,15 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   color: var(--very-dark-blue);
+}
+
+.login {
+  color: var(--grayish-blue);
+}
+
+.link:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .dot {
@@ -127,6 +137,11 @@ body {
   font-weight: 700;
   color: white;
   border-radius: 5px;
+}
+
+.main-cta:hover {
+  cursor: pointer;
+  background-color: var(--red-hover);
 }
 
 .schedule p {
