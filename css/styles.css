@@ -53,6 +53,17 @@ body {
   background-color: var(--light-grayish-blue);
 }
 
+.right-side-bg {
+  height: 400px;
+  width: 700px;
+  background-color: var(--light-grayish-blue);
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -99;
+  border-radius: 0 0 0 70px;
+}
+
 /* END OF NAVBAR */
 /* =========================== */
 
